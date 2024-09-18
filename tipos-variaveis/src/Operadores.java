@@ -100,17 +100,20 @@ public class Operadores {
 
         ----------------------//---------------------//-------------------------*/
         
-        /*OPERADORES LÓGICOS*/
+        /*OPERADORES LÓGICOS
 
         Boolean condicao1=true;
 
         Boolean condicao2=false;
 
-        if (condicao1 && condicao2) {
+        if (condicao1 && 7 > 4) {
             System.out.println("As duas condiçoes são verdadeiras.");           
         }
-        System.out.println("Fim");
 
+        if (condicao1 || condicao2) {
+            System.out.println("Uma das condiçoes são verdadeiras.");           
+        }
+        System.out.println("Fim");*/
     }
 
 }
